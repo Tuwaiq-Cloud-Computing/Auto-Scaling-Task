@@ -10,7 +10,7 @@
 Create ESC Instance using centos 7.9 image and use the commands below in User Data field:
 ```
 #!/bin/bash
-yum install stress
+yum install stress -y
 stress -c 100 -t 500&
 ```
 
