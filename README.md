@@ -25,8 +25,7 @@ stress -c 100 -t 500&
 
 ## Submission:
 
-- After finishing the tasks take screen shot of Scaling task .
-- take screen shot of Scaling activity .
+- After finishing the tasks take screen shot of Scaling task and the Scaling activities.
 - Then upload the pictures to the forked repo and then create a pull request.
 
 
