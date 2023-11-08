@@ -23,6 +23,13 @@ stress -c 100 -t 500&
 - Scale Out (Add 1 Instances)
 - Scale In (Remove 1 Instances)
 
+## Submission:
+
+- After finishing the tasks take screen shot of Scaling task .
+- take screen shot of Scaling activity .
+- Then upload the pictures to the forked repo and then create a pull request.
+
+
 
 
 
