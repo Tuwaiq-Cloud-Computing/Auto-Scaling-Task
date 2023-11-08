@@ -1,17 +1,12 @@
 # Auto-Scaling-Task
 
 ### Task 1: Create a VPC:
-
-Create a VPC name it (project-xyz) in Riyadh Region, make sure the IPv4 CIDR Block you choose can have only (256) subnet and each subnet can have (256) IP
+- Create a VPC name it (scaling-project) .
 
 ### Task 2: Create a VSwitch:
-
-A two (VSwitch) is a subnet within your VPC. You can create multiple VSwitches within a VPC to segment your network.
-
-- Create a subnet in Zone A and name it (project-xyz-a)
-- Create a subnet in Zone B and name it (project-xyz-b)
+- Create 2 VSwitch in 2 Different Availability Zones
   
-### Task 3: Create a ECS:
+### Task 3: Create a ECS Instance:
 Create ESC Instance using centos 7.9 image and use the commands below in User Data field:
 ```
 #!/bin/bash
